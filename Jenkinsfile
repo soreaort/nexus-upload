@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git 'git@github.com:soreaort/cargotracker.git';
+                    git 'git@github.com:soreaort/nexus-upload.git';
                 }
             }
         }
